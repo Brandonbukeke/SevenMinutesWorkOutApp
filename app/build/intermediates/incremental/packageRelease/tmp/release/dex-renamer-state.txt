@@ -1,0 +1,4 @@
+#Tue May 11 14:09:07 EAT 2021
+base.0=C\:\\Users\\hp\\Desktop\\7MinutesWorkout_v1\\app\\build\\intermediates\\dex\\release\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,0 +1,87 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.sevenminuteworkout"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\hp\Desktop\7MinutesWorkout_v1\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\hp\Desktop\7MinutesWorkout_v1\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\hp\Desktop\7MinutesWorkout_v1\app\src\main\AndroidManifest.xml:6:5-42:19
+12        android:allowBackup="false"
+12-->C:\Users\hp\Desktop\7MinutesWorkout_v1\app\src\main\AndroidManifest.xml:7:9-36
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.2.0] C:\Users\hp\.gradle\caches\transforms-2\files-2.1\6551a7b4f20b7b5cd9cb8cfbe0dd9dd2\core-1.2.0\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->C:\Users\hp\Desktop\7MinutesWorkout_v1\app\src\main\AndroidManifest.xml:8:9-43
+16        android:label="@string/app_name"
+16-->C:\Users\hp\Desktop\7MinutesWorkout_v1\app\src\main\AndroidManifest.xml:9:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->C:\Users\hp\Desktop\7MinutesWorkout_v1\app\src\main\AndroidManifest.xml:10:9-54
+18        android:supportsRtl="true"
+18-->C:\Users\hp\Desktop\7MinutesWorkout_v1\app\src\main\AndroidManifest.xml:11:9-35
+19        android:testOnly="true"
+20        android:theme="@style/AppTheme" >
+20-->C:\Users\hp\Desktop\7MinutesWorkout_v1\app\src\main\AndroidManifest.xml:12:9-40
+21        <activity
+21-->C:\Users\hp\Desktop\7MinutesWorkout_v1\app\src\main\AndroidManifest.xml:14:9-18:20
+22            android:name="com.sevenminuteworkout.HistoryActivity"
+22-->C:\Users\hp\Desktop\7MinutesWorkout_v1\app\src\main\AndroidManifest.xml:14:19-50
+23            android:screenOrientation="portrait"
+23-->C:\Users\hp\Desktop\7MinutesWorkout_v1\app\src\main\AndroidManifest.xml:15:13-49
+24            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+24-->C:\Users\hp\Desktop\7MinutesWorkout_v1\app\src\main\AndroidManifest.xml:16:13-69
+25        </activity>
+26        <activity
+26-->C:\Users\hp\Desktop\7MinutesWorkout_v1\app\src\main\AndroidManifest.xml:19:9-22:72
+27            android:name="com.sevenminuteworkout.BMIActivity"
+27-->C:\Users\hp\Desktop\7MinutesWorkout_v1\app\src\main\AndroidManifest.xml:20:13-40
+28            android:screenOrientation="portrait"
+28-->C:\Users\hp\Desktop\7MinutesWorkout_v1\app\src\main\AndroidManifest.xml:21:13-49
+29            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+29-->C:\Users\hp\Desktop\7MinutesWorkout_v1\app\src\main\AndroidManifest.xml:22:13-69
+30        <activity
+30-->C:\Users\hp\Desktop\7MinutesWorkout_v1\app\src\main\AndroidManifest.xml:23:9-26:72
+31            android:name="com.sevenminuteworkout.FinishActivity"
+31-->C:\Users\hp\Desktop\7MinutesWorkout_v1\app\src\main\AndroidManifest.xml:24:13-43
+32            android:screenOrientation="portrait"
+32-->C:\Users\hp\Desktop\7MinutesWorkout_v1\app\src\main\AndroidManifest.xml:25:13-49
+33            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+33-->C:\Users\hp\Desktop\7MinutesWorkout_v1\app\src\main\AndroidManifest.xml:26:13-69
+34        <activity
+34-->C:\Users\hp\Desktop\7MinutesWorkout_v1\app\src\main\AndroidManifest.xml:27:9-30:72
+35            android:name="com.sevenminuteworkout.ExerciseActivity"
+35-->C:\Users\hp\Desktop\7MinutesWorkout_v1\app\src\main\AndroidManifest.xml:28:13-45
+36            android:screenOrientation="portrait"
+36-->C:\Users\hp\Desktop\7MinutesWorkout_v1\app\src\main\AndroidManifest.xml:29:13-49
+37            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+37-->C:\Users\hp\Desktop\7MinutesWorkout_v1\app\src\main\AndroidManifest.xml:30:13-69
+38        <activity
+38-->C:\Users\hp\Desktop\7MinutesWorkout_v1\app\src\main\AndroidManifest.xml:31:9-41:20
+39            android:name="com.sevenminuteworkout.MainActivity"
+39-->C:\Users\hp\Desktop\7MinutesWorkout_v1\app\src\main\AndroidManifest.xml:32:13-41
+40            android:label="@string/app_name"
+40-->C:\Users\hp\Desktop\7MinutesWorkout_v1\app\src\main\AndroidManifest.xml:33:13-45
+41            android:screenOrientation="portrait"
+41-->C:\Users\hp\Desktop\7MinutesWorkout_v1\app\src\main\AndroidManifest.xml:34:13-49
+42            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+42-->C:\Users\hp\Desktop\7MinutesWorkout_v1\app\src\main\AndroidManifest.xml:35:13-69
+43            <intent-filter>
+43-->C:\Users\hp\Desktop\7MinutesWorkout_v1\app\src\main\AndroidManifest.xml:36:13-40:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->C:\Users\hp\Desktop\7MinutesWorkout_v1\app\src\main\AndroidManifest.xml:37:17-69
+44-->C:\Users\hp\Desktop\7MinutesWorkout_v1\app\src\main\AndroidManifest.xml:37:25-66
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->C:\Users\hp\Desktop\7MinutesWorkout_v1\app\src\main\AndroidManifest.xml:39:17-77
+46-->C:\Users\hp\Desktop\7MinutesWorkout_v1\app\src\main\AndroidManifest.xml:39:27-74
+47            </intent-filter>
+48        </activity>
+49    </application>
+50
+51</manifest>
